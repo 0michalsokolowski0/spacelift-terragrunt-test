@@ -2,7 +2,7 @@ resource "spacelift_stack" "this" {
 
   branch     = "main"
   name       = "terragrunttest"
-  repository = "tftest"
+  repository = var.spacelift_stack_repository
   labels     = local.labels
 }
 
