@@ -7,5 +7,5 @@ locals {
 }
 
 inputs = {
-  spacelift_stack_labels = toset(local.labels)
+  spacelift_stack_labels = jsonencode(toset(local.labels))
 }
