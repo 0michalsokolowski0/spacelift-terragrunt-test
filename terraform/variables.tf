@@ -6,4 +6,5 @@ variable "spacelift_stack_labels" {
 variable "spacelift_stack_repository" {
   description = "repository"
   type        = string
+  default = "https://github.com/0michalsokolowski0/empty"
 }

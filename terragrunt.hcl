@@ -3,8 +3,7 @@ terraform {
 }
 
 locals {
-  //labels = ["stack:terraform","something" ,"stack:terraform"]
-  labels = []
+  labels = ["stack:terraform","something" ,"stack:terraform"]
 }
 
 inputs = {
